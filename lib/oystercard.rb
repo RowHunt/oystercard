@@ -29,7 +29,7 @@ class Oystercard
   end
 
   private
-  def deduct(cash = MIN_FARE)
-    @balance -= cash
+  def deduct
+    @balance -= MIN_FARE
   end
 end
